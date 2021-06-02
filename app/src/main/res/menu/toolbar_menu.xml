@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/pesanku"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_pesan"
+        android:title="Messages" />
+    <item
+        android:id="@+id/notifikasiku"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_notifikasi"
+        android:title="Notification" />
+    <item
+        android:id="@+id/keranjangku"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_keranjang"
+        android:title="Shopping Basket" />
+
+</menu>

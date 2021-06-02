@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".feed"
+    >
+
+    <TextView
+        android:id="@+id/judulsemen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/aref_ruqaa"
+        android:text="Koleksi Semen"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="0dp">
+
+
+        <HorizontalScrollView
+            android:id="@+id/hscrollview1"
+            android:layout_width="409dp"
+            android:layout_height="172dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.13">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/trsatu"
+                        android:layout_width="107dp"
+                        android:layout_height="168dp"
+                        android:layout_marginRight="10dp"
+                        app:srcCompat="@drawable/trjenissatu" />
+
+                    <ImageButton
+                        android:id="@+id/hcserbaguna"
+                        android:layout_width="107dp"
+                        android:layout_height="168dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        app:srcCompat="@drawable/hcserbagunaedit" />
+
+                    <ImageButton
+                        android:id="@+id/spadangku"
+                        android:layout_width="107dp"
+                        android:layout_height="168dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        app:srcCompat="@drawable/semenpadang" />
+
+                    <ImageButton
+                        android:id="@+id/sgresikku"
+                        android:layout_width="107dp"
+                        android:layout_height="168dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        app:srcCompat="@drawable/gresikpcc" />
+
+                    <ImageButton
+                        android:id="@+id/smerahputihku"
+                        android:layout_width="107dp"
+                        android:layout_height="168dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        app:srcCompat="@drawable/merahputihpcc" />
+
+                    <ImageButton
+                        android:id="@+id/sgarudaku"
+                        android:layout_width="107dp"
+                        android:layout_height="168dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        app:srcCompat="@drawable/garudapcc" />
+
+                    <ImageButton
+                        android:id="@+id/sjakartaku"
+                        android:layout_width="107dp"
+                        android:layout_height="168dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        app:srcCompat="@drawable/semenjktpcc" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <TextView
+            android:id="@+id/judulpasir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Koleksi Pasir"
+            android:fontFamily="@font/aref_ruqaa"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.023"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/hscrollview1" />
+
+        <HorizontalScrollView
+            android:id="@+id/hscrollview2"
+            android:layout_width="424dp"
+            android:layout_height="124dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/judulpasir">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/pbangkaplester"
+                        android:layout_width="107dp"
+                        android:layout_height="120dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        app:srcCompat="@drawable/pasirbangkaplester" />
+
+                    <ImageButton
+                        android:id="@+id/pbeton"
+                        android:layout_width="107dp"
+                        android:layout_height="120dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        app:srcCompat="@drawable/pasirbeton" />
+
+                    <ImageButton
+                        android:id="@+id/pmundu"
+                        android:layout_width="107dp"
+                        android:layout_height="120dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        app:srcCompat="@drawable/pasirmundu" />
+
+                    <ImageButton
+                        android:id="@+id/ppasang"
+                        android:layout_width="107dp"
+                        android:layout_height="120dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        app:srcCompat="@drawable/pasirpasang" />
+
+                    <ImageButton
+                        android:id="@+id/pputihrangkas"
+                        android:layout_width="107dp"
+                        android:layout_height="120dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        app:srcCompat="@drawable/pasirputihrangkas" />
+
+                    <ImageButton
+                        android:id="@+id/purug"
+                        android:layout_width="107dp"
+                        android:layout_height="120dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        app:srcCompat="@drawable/pasirurug" />
+                </LinearLayout>
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <TextView
+            android:id="@+id/judulkayubatu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Koleksi Kayu dan Batu"
+            android:fontFamily="@font/aref_ruqaa"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.032"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/hscrollview2" />
+
+        <HorizontalScrollView
+            android:id="@+id/hscrollview3"
+            android:layout_width="424dp"
+            android:layout_height="124dp"
+            android:layout_marginTop="4dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/judulkayubatu">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/bkalibelah"
+                    android:layout_width="107dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    app:srcCompat="@drawable/batukalibelah"/>
+                <ImageButton
+                    android:id="@+id/bknecker"
+                    android:layout_width="107dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    app:srcCompat="@drawable/batuknecker" />
+                <ImageButton
+                    android:id="@+id/bsplit"
+                    android:layout_width="107dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    app:srcCompat="@drawable/batusplit"/>
+                <ImageButton
+                    android:id="@+id/kjati"
+                    android:layout_width="107dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    app:srcCompat="@drawable/kayujati"/>
+                <ImageButton
+                    android:id="@+id/kkamper"
+                    android:layout_width="107dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    app:srcCompat="@drawable/kayukamper"/>
+                <ImageButton
+                    android:id="@+id/kkelapa"
+                    android:layout_width="107dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    app:srcCompat="@drawable/kayukelapa"/>
+                <ImageButton
+                    android:id="@+id/kmerantimerah"
+                    android:layout_width="107dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    app:srcCompat="@drawable/kayumerantimerah"/>
+                <ImageButton
+                    android:id="@+id/kmerbau"
+                    android:layout_width="107dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    app:srcCompat="@drawable/kayumerbau"/>
+            </LinearLayout>
+            </LinearLayout>
+        </HorizontalScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

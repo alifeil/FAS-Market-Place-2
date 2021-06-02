@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".itempesan"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="380dp"
+            android:layout_height="80dp"
+            android:background="@drawable/cv4"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="10dp"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/logotr"
+            android:layout_marginLeft="35dp"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Semen Tiga Roda"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginLeft="105dp"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Best Store"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:textColor="#d703082b"
+            android:layout_marginLeft="105dp"
+            android:layout_marginTop="50dp"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="380dp"
+            android:layout_height="80dp"
+            android:background="@drawable/cv4"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="10dp"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/logoholcim"
+            android:layout_marginLeft="35dp"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Semen Holcim"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginLeft="105dp"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Best Store"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:textColor="#d703082b"
+            android:layout_marginLeft="105dp"
+            android:layout_marginTop="50dp"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="380dp"
+            android:layout_height="80dp"
+            android:background="@drawable/cv4"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="10dp"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/logospadang"
+            android:layout_marginLeft="35dp"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Semen Padang"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginLeft="105dp"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Best Store"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:textColor="#d703082b"
+            android:layout_marginLeft="105dp"
+            android:layout_marginTop="50dp"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="380dp"
+            android:layout_height="80dp"
+            android:background="@drawable/cv4"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="10dp"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/logosgresik"
+            android:layout_marginLeft="35dp"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Semen Gresik"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginLeft="105dp"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Best Store"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:textColor="#d703082b"
+            android:layout_marginLeft="105dp"
+            android:layout_marginTop="50dp"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="380dp"
+            android:layout_height="80dp"
+            android:background="@drawable/cv4"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="10dp"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/logosmerahputih"
+            android:layout_marginLeft="35dp"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Semen Merah Putih"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginLeft="105dp"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Best Store"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:textColor="#d703082b"
+            android:layout_marginLeft="105dp"
+            android:layout_marginTop="50dp"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="380dp"
+            android:layout_height="80dp"
+            android:background="@drawable/cv4"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="10dp"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/logosgaruda"
+            android:layout_marginLeft="35dp"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Semen Garuda"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginLeft="105dp"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Best Store"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:textColor="#d703082b"
+            android:layout_marginLeft="105dp"
+            android:layout_marginTop="50dp"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="380dp"
+            android:layout_height="80dp"
+            android:background="@drawable/cv4"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="10dp"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/logosjakarta"
+            android:layout_marginLeft="35dp"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Semen Jakarta"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginLeft="105dp"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Best Store"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:textColor="#d703082b"
+            android:layout_marginLeft="105dp"
+            android:layout_marginTop="50dp"/>
+    </RelativeLayout>
+
+</LinearLayout>

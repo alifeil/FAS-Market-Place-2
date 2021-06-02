@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/categoryAct"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/categoryName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_alignParentRight="true"
+            android:text="Category Name"
+            android:textColor="@color/black"
+            android:textSize="20dp"/>
+        <ImageView
+            android:layout_width="380dp"
+            android:layout_height="80dp"
+            android:background="@drawable/cv1"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="40dp"/>
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:src="@drawable/logoku"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="100dp"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Building Materials"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#d703082b"
+            android:layout_marginLeft="105dp"
+            android:layout_marginTop="50dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Semen, Pasir, Kayu, Batu"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:textColor="#6003082b"
+            android:layout_marginLeft="105dp"
+            android:layout_marginTop="80dp"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

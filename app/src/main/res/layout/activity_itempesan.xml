@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".itempesan"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="380dp"
+            android:layout_height="80dp"
+            android:background="@drawable/cv3"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="10dp"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_pesanku"
+            android:layout_marginLeft="35dp"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chat"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginLeft="105dp"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Percakapan pribadi anda"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:textColor="#d703082b"
+            android:layout_marginLeft="105dp"
+            android:layout_marginTop="50dp"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="380dp"
+            android:layout_height="80dp"
+            android:background="@drawable/cv3"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="10dp"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_diskusiku"
+            android:layout_marginLeft="35dp"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Diskusi"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginLeft="105dp"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tanya jawab seputar produk"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:textColor="#d703082b"
+            android:layout_marginLeft="105dp"
+            android:layout_marginTop="50dp"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="380dp"
+            android:layout_height="80dp"
+            android:background="@drawable/cv3"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="10dp"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_ulasanku"
+            android:layout_marginLeft="35dp"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ulasan"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginLeft="105dp"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Berikan Penilaian dan Ulasan"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:textColor="#d703082b"
+            android:layout_marginLeft="105dp"
+            android:layout_marginTop="50dp"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="380dp"
+            android:layout_height="80dp"
+            android:background="@drawable/cv3"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="10dp"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_bantuanku"
+            android:layout_marginLeft="35dp"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pesan Bantuan"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginLeft="105dp"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pantau status bantuan dari Toko"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:textColor="#d703082b"
+            android:layout_marginLeft="105dp"
+            android:layout_marginTop="50dp"/>
+    </RelativeLayout>
+</LinearLayout>
